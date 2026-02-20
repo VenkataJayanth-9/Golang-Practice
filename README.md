@@ -21,7 +21,6 @@ Tools: Go CLI, VS Code
 
 Version Control: Git & GitHub
 
-📂 Repository Structure
 go-daily-learning/
 │
 ├── day-01-basics/
