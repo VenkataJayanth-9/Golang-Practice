@@ -65,7 +65,7 @@ func main(){
 
 func generateSalt() ([]byte, error){
 	salt := make([]byte, 16)//We generate a slice of size 16 bytes 
-	_, err := io.ReadFull(rand.Reader, salt)// What this line doing ReadeFull takes to arguments one is reader which generate some random numbers and then stored on to byte slice salt 
+	_, err := io.ReadFull(rand.Reader , salt)// What this line doing ReadeFull takes to arguments one is reader which generate some random numbers and then stored on to byte slice salt 
 
 	if err != nil {
 		return nil, err
